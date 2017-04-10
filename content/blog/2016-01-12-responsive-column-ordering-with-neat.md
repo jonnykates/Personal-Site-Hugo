@@ -1,7 +1,7 @@
 +++
 title =  "Responsive Column Ordering with Neat"
 slug = "responsive-column-ordering-with-neat"
-tags = [ "Development" "Neat"]
+tags = [ "Development", "Neat"]
 date =  "2016-01-12"
 shortsummary = "Using floats to hack Bourbon Neat. Can't we all use Flexbox yet?"
 +++
