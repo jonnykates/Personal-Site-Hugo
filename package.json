@@ -1,0 +1,18 @@
+{
+  "name": "jonnykates.com",
+  "version": "1.0.0",
+  "description": "Jonny Kates | Hugo",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonny Kates",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.10"
+  }
+}

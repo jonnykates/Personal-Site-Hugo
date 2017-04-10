@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 0;
+  padding: 15px 10px;
+}
+
+.home-link {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.3rem;
+  width: 10%;
+}
+
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  list-style: none;
+  font-size: 1rem;
+  width: 90%;
+  text-align: right;
+
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 900;
+  }
+}

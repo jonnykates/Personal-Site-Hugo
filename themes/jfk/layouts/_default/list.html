@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="banner">
+  <div class="container">
+    <h1>{{.Title}}</h1>
+    <p>{{ .Content }}</p>
+  </div>
+</div>
+<div class="container">
+
+  <ul class="post-list">
+    {{ range .Data.Pages }}
+      <li class="post-list__post">
+        <a href="{{ .Permalink }}" class="post-list__link-wrapper">
+          <svg viewBox='0 0 300 100' preserveAspectRatio='none'>
+            <path d='M0,0 300,0 300,100 0,100z' vector-effect='non-scaling-stroke'/>
+          </svg>
+          <p class="datestamp">{{ .Date.Format "January 2, 2006" }}</p>
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Params.shortsummary }}</p>
+        </a>
+        <svg style="width: 5px; height: 50px;" class="post-list__bottom-dash">
+          <line x1="0%" y1="100%" x2="0%" y2="0%"></line>
+        </svg>
+      </li>
+    {{ end }}
+  </ul>
+
+</div>
+{{ end }}

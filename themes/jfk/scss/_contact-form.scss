@@ -1,0 +1,43 @@
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: none;
+    background-color: #eee;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  input[name="name"] {
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  input[name="_replyto"] {
+    width: 48%;
+  }
+
+  input[name="subject"],
+  textarea[name="message"] {
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-form {
+    input[name="name"] {
+      margin-right: 0;
+      width: 100%;
+    }
+    input[name="_replyto"] {
+      width: 100%;
+    }
+  }
+}

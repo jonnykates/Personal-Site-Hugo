@@ -1,0 +1,24 @@
+footer.site-footer {
+  text-align: center;
+  background-color: $tan;
+  padding: 20px;
+}
+
+.site-footer__icon-links {
+  margin: 0 0 10px;
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0px;
+  font-size: 1.5em;
+
+  li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+}
+
+p.site-footer__copyright {
+  color: $light-grey;
+  font-size: 0.85em;
+  padding: 0;
+}

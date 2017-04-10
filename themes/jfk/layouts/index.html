@@ -1,0 +1,85 @@
+{{ define "main" }}
+<div class="banner">
+  <div class="container container--flex">
+    <div class="col col--thin col--self-portrait">
+      <img src="/img/headshot.svg" alt="Self portrat" />
+    </div>
+    <div class="col col--thick">
+      <h1>Hi, I'm Jonny</h1>
+      <p class="p-larger">I'm a designer and web developer based in St. Albans, UK. I help organisations to improve their internet game and I can help you too.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container services">
+
+  <div class="service service--icon-right">
+    <div class="col col--thick">
+      <svg viewBox='0 0 300 100' preserveAspectRatio='none'>
+        <path d='M0,0 300,0 300,100 0,100z' vector-effect='non-scaling-stroke'/>
+      </svg>
+      <h2>Designer and illustrator</h2>
+      <p>I love using design to solve problems. I specialise in designing beautiful websites that focus on user experience.</p>
+    </div>
+    <div class="col col--thin col--right">
+      <img src="/img/service-icon--design.svg" />
+      <svg class="icon-dash" style="width:36%; height:5px;">
+        <line class="icon-dash--horizontal" x1="100%" y1="0%" x2="0%" y2="0%"></line>
+        <line class="icon-dash--vertical" x1="0%" y1="100%" x2="0%" y2="0%"></line>
+      </svg>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="col col--thin">
+      <img src="/img/service-icon--develop.svg" />
+      <svg style="width:100%; height:5px;">
+        <line class="icon-dash--horizontal" x1="100%" y1="0%" x2="64%" y2="0%"></line>
+        <line class="icon-dash--vertical" x1="0%" y1="100%" x2="0%" y2="0%"></line>
+      </svg>
+    </div>
+    <div class="col col--thick">
+      <svg viewBox='0 0 300 100' preserveAspectRatio='none'>
+        <path d='M0,0 300,0 300,100 0,100z' vector-effect='non-scaling-stroke'/>
+      </svg>
+      <h2>Frontend developer</h2>
+      <p>I also build websites as well as designing them. I use the latest technologies to develop sites that work across all devices.</p>
+    </div>
+  </div>
+
+  <div class="service service--icon-right">
+    <div class="col col--thick">
+      <svg viewBox='0 0 300 100' preserveAspectRatio='none'>
+        <path d='M0,0 300,0 300,100 0,100z' vector-effect='non-scaling-stroke'/>
+      </svg>
+      <h2>Content strategist</h2>
+      <p>It can be difficult to convey your message clearly. I can help to organise your website's architecture and clarify your written copy.</p>
+    </div>
+    <div class="col col--thin col--right">
+      <img src="/img/service-icon--content-strategist.svg" />
+      <svg style="width:36%; height:5px;">
+        <line class="icon-dash--horizontal" x1="100%" y1="0%" x2="0%" y2="0%"></line>
+        <line class="icon-dash--vertical" x1="0%" y1="100%" x2="0%" y2="0%"></line>
+      </svg>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="col col--thin">
+      <img src="/img/service-icon--project-manager.svg" />
+      <svg style="width:100%; height:5px;">
+        <line class="icon-dash--horizontal" x1="100%" y1="0%" x2="64%" y2="0%"></line>
+        <line class="icon-dash--vertical" x1="0%" y1="100%" x2="0%" y2="0%"></line>
+      </svg>
+    </div>
+    <div class="col col--thick">
+      <svg viewBox='0 0 300 100' preserveAspectRatio='none'>
+        <path d='M0,0 300,0 300,100 0,100z' vector-effect='non-scaling-stroke'/>
+      </svg>
+      <h2>Project manager</h2>
+      <p>Technology projects can be hard to keep on track. I enjoy planning and managing projects across small teams.</p>
+    </div>
+  </div>
+
+</div>
+{{ end }}

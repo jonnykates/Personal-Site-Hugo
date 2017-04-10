@@ -1,0 +1,63 @@
+.container {
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  max-width: $site-width;
+}
+
+.container--centre-align {
+  text-align: center;
+}
+
+.container--flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  // border: 1px solid blue;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+.col--thin {
+  width: 32%;
+}
+
+.col--thick {
+  width: 68%;
+}
+
+.col--self-portrait {
+  padding-right: 20px;
+}
+
+.col--right {
+  text-align: right;
+}
+
+.i-can-help {
+  margin: 50px auto;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 400px;
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .col--thin,
+  .col--thick {
+    width: 100%;
+    text-align: center;
+  }
+
+  .col--self-portrait {
+    padding: 0 0 20px;
+  }
+}

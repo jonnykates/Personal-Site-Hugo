@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="banner">
+  <div class="container">
+    <p class="datestamp">{{ .Date.Format "January 2, 2006" }}</p>
+    <h1>{{.Title}}</h1>
+    <p>{{ .Params.shortsummary }}</p>
+    <p class="datestamp">Estimated reading time: {{.ReadingTime}} minutes</p>
+  </div>
+</div>
+
+<div class="container">
+  {{ .Content }}
+
+  <span class="tags-label">Tagged with:</span>
+  <ul class="tags">
+    {{ range .Params.tags }}
+      <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

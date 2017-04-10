@@ -1,0 +1,44 @@
+* {
+  font-family: "filson-soft";
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  color: $red;
+  margin: 0;
+  padding: 0;
+}
+
+p, span {
+  font-weight: 300;
+  color: $grey;
+  font-size: 1.125em;
+  margin: 0;
+  padding: 0 0 .85em;
+}
+
+.p-larger {
+  font-size: 1.375em;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  font-weight: 900;
+  &:hover {
+    border-bottom: 2px dotted $red;
+    color: darken($red, 10%);
+  }
+}
+
+code, kbd, pre, samp {
+  span {
+    font-family: monospace, monospace;
+  }
+}
+
+.datestamp {
+  font-size: .85em;
+  color: $light-grey;
+}

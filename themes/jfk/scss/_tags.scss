@@ -1,0 +1,16 @@
+.tags-label {
+  font-size: .85em;
+  color: $light-grey;
+}
+
+ul.tags {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: $tan;
+    border-radius: $border-radius;
+    margin-right: 2px;
+  }
+}

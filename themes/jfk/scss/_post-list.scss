@@ -1,0 +1,57 @@
+.post-list {
+  list-style: none;
+  margin: 0;
+
+  li {
+    position: relative;
+    margin-bottom: 50px;
+
+    .post-list__link-wrapper {
+      display: block;
+      padding: 30px;
+
+      svg {
+        position: absolute;
+        pointer-events: none;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      path {
+        fill: none;
+        stroke: $tan;
+        stroke-width: 5;
+        stroke-dasharray: 10, 10;
+      }
+
+      &:hover {
+        border-bottom: none;
+
+        path {
+          stroke: $red;
+        }
+      }
+    }
+
+    &:last-child {
+      .post-list__bottom-dash {
+        display: none;
+      }
+    }
+  }
+}
+
+.post-list__bottom-dash {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  line {
+    stroke: $tan;
+    stroke-width: 5;
+    stroke-dasharray: 10, 10;
+  }
+}

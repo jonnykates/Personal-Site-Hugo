@@ -1,0 +1,94 @@
+.services {
+
+}
+
+.service {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &.service--icon-right {
+    flex-wrap: wrap-reverse;
+  }
+
+  p {
+    padding: 0;
+  }
+
+  .col--thick {
+    padding: 30px;
+    // border: 1px dashed $tan;
+    border-radius: $border-radius;
+    position: relative;
+
+    svg {
+      position: absolute;
+      pointer-events: none;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    path {
+      fill: none;
+      stroke: $tan;
+      stroke-width: 5;
+      stroke-dasharray: 10, 10;
+    }
+  }
+
+  .col--thin {
+    position: relative;
+    padding-right: 30px;
+
+    &.col--right {
+      padding: 0 0 0 30px;
+    }
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      z-index: 0;
+    }
+
+    line {
+      stroke: $tan;
+      stroke-width: 5;
+      stroke-dasharray: 10, 10;
+    }
+
+    .icon-dash--vertical {
+      display: none;
+    }
+  }
+
+  .service__content {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 425px) {
+  .service {
+    .col--thin, .col--thin.col--right {
+      padding: 0 0 30px 0;
+    }
+  }
+
+  .service .col--thin {
+    svg {
+      width: 5px !important;
+      height: 50% !important;
+      left: 50%;
+    }
+    .icon-dash--horizontal {
+      display: none;
+    }
+    .icon-dash--vertical {
+      display: block;
+    }
+  }
+}

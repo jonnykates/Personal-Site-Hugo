@@ -1,0 +1,9 @@
+languageCode = "en-us"
+title = "Jonny Kates"
+baseURL = "http://jonnykates.com"
+theme = "jfk"
+pluralizeListTitles = "false"
+googleAnalytics = "UA-49379927-1"
+
+[taxonomies]
+tag = "tags"

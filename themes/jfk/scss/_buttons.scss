@@ -1,0 +1,14 @@
+input[type="submit"],
+button,
+.button {
+  border: none;
+  padding: 16px;
+  background: $red;
+  color: #fff;
+  font-weight: bold;
+  border-radius: $border-radius;
+
+  &:hover {
+    background: darken($red, 10%);
+  }
+}

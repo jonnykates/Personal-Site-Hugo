@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1201px" height="713px" viewBox="0 0 1201 713" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>TV Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#484848" offset="0%"></stop>
+            <stop stop-color="#B5B5B5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#2D2D2D" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-3">
+            <stop stop-color="#B9B9B9" offset="0%"></stop>
+            <stop stop-color="#919191" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-4" x="0" y="0" width="100" height="144" rx="10"></rect>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="55.997561%" id="radialGradient-6">
+            <stop stop-color="#403F3F" offset="0%"></stop>
+            <stop stop-color="#717171" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-7">
+            <stop stop-color="#FFFED5" offset="0%"></stop>
+            <stop stop-color="#FCF400" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-8">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#4A4A4A" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-9" x="0" y="0" width="100" height="144" rx="10"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="BG" sketch:type="MSLayerGroup" transform="translate(-197.000000, -76.000000)">
+            <path d="M1384,677 C1384,352.256567 1120.74343,89 796,89 C471.256567,89 208,352.256567 208,677 L1384,677 Z" id="Oval-4" fill="#F7FCDD" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-55" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(262.500000, 683.000000) scale(1, -1) translate(-262.500000, -683.000000) " x="208" y="677" width="109" height="12"></rect>
+            <rect id="Rectangle-55-Copy" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(329.000000, 683.000000) scale(1, -1) translate(-329.000000, -683.000000) " x="320" y="677" width="18" height="12"></rect>
+            <rect id="Rectangle-55-Copy-2" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(361.000000, 683.000000) scale(1, -1) translate(-361.000000, -683.000000) " x="341" y="677" width="40" height="12"></rect>
+            <rect id="Rectangle-55-Copy-3" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(424.000000, 683.000000) scale(1, -1) translate(-424.000000, -683.000000) " x="384" y="677" width="80" height="12"></rect>
+            <rect id="Rectangle-55-Copy-4" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(1139.500000, 683.000000) scale(1, -1) translate(-1139.500000, -683.000000) " x="1129" y="677" width="21" height="12"></rect>
+            <rect id="Rectangle-55-Copy-7" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(1216.000000, 683.000000) scale(1, -1) translate(-1216.000000, -683.000000) " x="1153" y="677" width="126" height="12"></rect>
+            <rect id="Rectangle-55-Copy-5" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(1302.000000, 683.000000) scale(1, -1) translate(-1302.000000, -683.000000) " x="1282" y="677" width="40" height="12"></rect>
+            <rect id="Rectangle-55-Copy-6" fill="#5C5C5C" sketch:type="MSShapeGroup" transform="translate(1354.500000, 683.000000) scale(1, -1) translate(-1354.500000, -683.000000) " x="1325" y="677" width="59" height="12"></rect>
+        </g>
+        <path d="M862.113281,461 L939,543.996094 L259,543.996094 L335.886719,461 L862.113281,461 Z" id="Top-side" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+        <g id="TV" sketch:type="MSLayerGroup" transform="translate(425.000000, 250.000000)">
+            <rect id="Front" fill="#2C2C2C" sketch:type="MSShapeGroup" x="86" y="265" width="175" height="6" rx="1"></rect>
+            <path d="M236.438937,240 C237.405949,240 238.554332,240.396706 238.995699,240.877117 L261.193647,265.038755 C261.638695,265.523173 260.939615,265.915872 259.602482,265.915872 L87.7222611,265.915872 C86.3984366,265.915872 85.6897293,265.519166 86.1310963,265.038755 L108.329044,240.877117 C108.774093,240.392699 109.909072,240 110.885807,240 L236.438937,240 Z" id="Stand" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup"></path>
+            <rect id="Arm" fill="#2D2D2D" sketch:type="MSShapeGroup" x="155" y="215" width="38" height="38"></rect>
+            <rect id="Background" fill="#434343" sketch:type="MSShapeGroup" x="0" y="0" width="347" height="230" rx="2"></rect>
+            <path d="M343.605469,7.94921875 L100.646402,7.94921875 L317.018631,224.321448 L343.776724,224.321448 L343.605469,7.94921875 Z" id="Light" fill="#4A4A4A" sketch:type="MSShapeGroup"></path>
+            <rect id="Highlight" fill="#737373" sketch:type="MSShapeGroup" x="0" y="4" width="347" height="8"></rect>
+            <rect id="Frame" stroke="#1C1B1B" stroke-width="9" sketch:type="MSShapeGroup" x="0" y="0" width="347" height="230" rx="1"></rect>
+        </g>
+        <rect id="Top-depth" fill="#D8D8D8" sketch:type="MSShapeGroup" x="259" y="544" width="680" height="10"></rect>
+        <rect id="Left-bar" fill="#B5B5B5" sketch:type="MSShapeGroup" x="269" y="554" width="10" height="109"></rect>
+        <rect id="Right-bar" fill="#B5B5B5" sketch:type="MSShapeGroup" x="919" y="554" width="10" height="109"></rect>
+        <path d="M888.130252,691 L939,691 L939,663 L259,663 L259,691 L309.572046,691 L309.049191,688.558594 C309.049191,688.558594 307.189816,677 326.334347,677 L598.851149,677 L871.367952,677 C890.512483,677 888.653108,688.558594 888.653108,688.558594 L888.130252,691 Z" id="Footer" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+        <path d="M939,688 L939,691 L888.130252,691 L888.653108,688.558594 C888.653108,688.558594 888.906162,686.985508 888.264357,685 L939,685 L939,688 Z M259,688 L259,691 L309.572046,691 L309.049191,688.558594 C309.049191,688.558594 308.796136,686.985508 309.437941,685 L259,685 L259,688 Z" id="Footer-feet" fill="#9C9C9C" sketch:type="MSShapeGroup"></path>
+        <g id="6-draw-cabs" sketch:type="MSLayerGroup" transform="translate(281.000000, 556.000000)">
+            <g id="Drawer" transform="translate(0.000000, 51.000000)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-10" stroke="#B5B5B5" stroke-width="3" fill="#C9C6C6" x="0" y="0" width="210" height="54"></rect>
+                <circle id="Oval-17" fill="url(#radialGradient-3)" cx="105" cy="27" r="9"></circle>
+            </g>
+            <g id="Drawer-Copy" transform="translate(213.000000, 51.000000)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-10" stroke="#B5B5B5" stroke-width="3" fill="#C9C6C6" x="0" y="0" width="210" height="54"></rect>
+                <circle id="Oval-17" fill="url(#radialGradient-3)" cx="105" cy="27" r="9"></circle>
+            </g>
+            <g id="Drawer-Copy-2" transform="translate(426.000000, 51.000000)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-10" stroke="#B5B5B5" stroke-width="3" fill="#C9C6C6" x="0" y="0" width="210" height="54"></rect>
+                <circle id="Oval-17" fill="url(#radialGradient-3)" cx="105" cy="27" r="9"></circle>
+            </g>
+            <rect id="Rectangle-10-Copy-3" fill="#929292" sketch:type="MSShapeGroup" x="0" y="0" width="210" height="48"></rect>
+            <rect id="Rectangle-10-Copy-4" fill="#929292" sketch:type="MSShapeGroup" x="213" y="0" width="210" height="48"></rect>
+            <rect id="Rectangle-10-Copy-5" fill="#929292" sketch:type="MSShapeGroup" x="426" y="0" width="210" height="48"></rect>
+        </g>
+        <g id="Stereo" sketch:type="MSLayerGroup" transform="translate(498.000000, 560.000000)">
+            <rect id="Base" fill="#444444" sketch:type="MSShapeGroup" x="0" y="0" width="202" height="40"></rect>
+            <rect id="Top-highlight" fill="#3A3A3A" sketch:type="MSShapeGroup" x="0" y="0" width="202" height="4"></rect>
+            <circle id="Oval-1" stroke="#B9B9B9" stroke-width="2" fill="#737373" sketch:type="MSShapeGroup" cx="173.5" cy="20.5" r="12.5"></circle>
+            <circle id="Oval-1-Copy" fill="#737373" sketch:type="MSShapeGroup" cx="22.5" cy="27.5" r="5.5"></circle>
+            <circle id="Oval-1-Copy-2" fill="#6EFF78" sketch:type="MSShapeGroup" cx="22.5" cy="11.5" r="1.5"></circle>
+            <g id="Screen" transform="translate(62.000000, 8.000000)" sketch:type="MSShapeGroup">
+                <rect id="Fill" fill="#B6B0FF" x="0" y="0" width="79" height="25"></rect>
+                <path d="M78.5813673,0.865979902 L40.4225671,0.865979902 L64.1329799,24.5763926 L78.5813654,24.5763929 L78.5813673,0.865979902 Z" id="Glare" fill="#C3C0F3"></path>
+                <rect id="Highlight" fill="#D4D1F6" x="0" y="0" width="79" height="4"></rect>
+                <rect id="Border" stroke="#2B2A39" x="0" y="0" width="79" height="25"></rect>
+            </g>
+        </g>
+        <g id="CDs" sketch:type="MSLayerGroup" transform="translate(710.000000, 559.000000)">
+            <rect id="Rectangle-21" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-6" fill="#E29898" sketch:type="MSShapeGroup" x="42" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-2" fill="#4D6560" sketch:type="MSShapeGroup" x="14" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-7" fill="#E5C8EE" sketch:type="MSShapeGroup" x="56" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-4" fill="#FECACA" sketch:type="MSShapeGroup" x="28" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-8" fill="#D8D8D8" sketch:type="MSShapeGroup" x="70" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy" fill="#711818" sketch:type="MSShapeGroup" x="7" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-9" fill="#F8F5F5" sketch:type="MSShapeGroup" x="49" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-3" fill="#D5D0D0" sketch:type="MSShapeGroup" x="21" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-10" fill="#DDD277" sketch:type="MSShapeGroup" x="63" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-5" fill="#D8D8D8" sketch:type="MSShapeGroup" x="35" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-11" fill="#FDBAE3" sketch:type="MSShapeGroup" x="77" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-12" fill="#D8D8D8" sketch:type="MSShapeGroup" x="84" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-13" fill="#F3BABA" sketch:type="MSShapeGroup" x="91" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-14" fill="#FFFFFF" sketch:type="MSShapeGroup" x="98" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-15" fill="#AE3838" sketch:type="MSShapeGroup" x="105" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-16" fill="#C5ECCA" sketch:type="MSShapeGroup" x="112" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-17" fill="#D8D8D8" sketch:type="MSShapeGroup" x="119" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-18" fill="#F6E5D7" sketch:type="MSShapeGroup" x="126" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-19" fill="#EFC59E" sketch:type="MSShapeGroup" x="133" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-20" fill="#D8D8D8" sketch:type="MSShapeGroup" x="140" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-21" fill="#CDC1FF" sketch:type="MSShapeGroup" x="147" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-22" fill="#FFA9A9" sketch:type="MSShapeGroup" x="154" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-23" fill="#D8D8D8" sketch:type="MSShapeGroup" x="161" y="0" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-24" fill="#EDDB92" sketch:type="MSShapeGroup" transform="translate(177.303038, 21.582415) rotate(20.000000) translate(-177.303038, -21.582415) " x="175.303038" y="0.582414677" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-25" fill="#C0DDB8" sketch:type="MSShapeGroup" transform="translate(185.364344, 21.887936) rotate(23.000000) translate(-185.364344, -21.887936) " x="183.364344" y="0.887935821" width="4" height="42"></rect>
+            <rect id="Rectangle-21-Copy-26" fill="#D8D8D8" sketch:type="MSShapeGroup" transform="translate(193.408206, 22.248583) rotate(26.000000) translate(-193.408206, -22.248583) " x="191.408206" y="1.24858273" width="4" height="42"></rect>
+        </g>
+        <g id="X-Box" sketch:type="MSLayerGroup" transform="translate(285.000000, 558.000000)">
+            <rect id="Rectangle-48" fill="#308300" sketch:type="MSShapeGroup" x="136" y="35" width="66" height="7" rx="2"></rect>
+            <rect id="Rectangle-48-Copy" fill="#308300" sketch:type="MSShapeGroup" x="136" y="25" width="66" height="7" rx="2"></rect>
+            <rect id="Rectangle-48-Copy-2" fill="#308300" sketch:type="MSShapeGroup" x="136" y="14" width="66" height="7" rx="2"></rect>
+            <rect id="Rectangle-48-Copy-3" fill="#308300" sketch:type="MSShapeGroup" x="136" y="3" width="66" height="7" rx="2"></rect>
+            <rect id="Rectangle-63" stroke="#979797" fill="#D3D3D3" sketch:type="MSShapeGroup" x="0" y="13" width="47" height="30" rx="5"></rect>
+            <rect id="Rectangle-48-Copy-5" fill="#308300" sketch:type="MSShapeGroup" transform="translate(91.802461, 22.252695) rotate(-143.000000) translate(-91.802461, -22.252695) " x="60.4916218" y="18.9318481" width="62.6216784" height="6.64169317" rx="2"></rect>
+            <rect id="Rectangle-48-Copy-6" fill="#308300" sketch:type="MSShapeGroup" transform="translate(74.533737, 25.208546) rotate(-149.000000) translate(-74.533737, -25.208546) " x="43.2228978" y="21.8876997" width="62.6216784" height="6.64169317" rx="2"></rect>
+        </g>
+        <g id="SPEAKER-L" sketch:type="MSLayerGroup" transform="translate(311.000000, 358.000000)">
+            <mask id="mask-5" sketch:name="Mask" fill="white">
+                <use xlink:href="#path-4"></use>
+            </mask>
+            <use id="Mask" fill="#1C1B1B" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
+            <g mask="url(#mask-5)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-57" fill="#1C1B1B" x="0" y="0" width="100" height="144"></rect>
+                <g id="Top-side" fill="#3F3F3F">
+                    <path d="M3.01722309e-17,-5.55111512e-17 C3.01722309e-17,-5.55111512e-17 6.17021621,11.3479166 16.1421383,14.7903484 L50,14.7903484 L49.9999998,-5.55111512e-17 L3.01722309e-17,-5.55111512e-17 Z" id="Path-9"></path>
+                    <path d="M50,-5.55111512e-17 C50,-5.55111512e-17 56.1702162,11.3479166 66.1421383,14.7903484 L100,14.7903484 L99.9999998,-5.55111512e-17 L50,-5.55111512e-17 Z" id="Path-9-Copy" transform="translate(75.000000, 7.395174) scale(-1, 1) translate(-75.000000, -7.395174) "></path>
+                </g>
+                <path d="M0.156738281,0.260742188 C0.156738281,0.260742188 12.9799805,11.331543 15.7709961,15.0952148 C19.1992188,55.4101562 12.128418,128.706055 9.91455078,133.352051 C8.42505455,139.641602 0.156738281,143.551758 0.156738281,143.551758 L0.156738281,0.260742188 Z" id="Path-11" fill="#3B3A3A"></path>
+                <path d="M83,-6.9388939e-18 C83,-6.9388939e-18 95.8232422,11.0708008 98.6142578,14.8344727 C102.04248,55.1494141 94.9716797,128.445312 92.7578125,133.091309 C91.2683163,139.380859 83,143.291016 83,143.291016 L83,-6.9388939e-18 Z" id="Path-11-Copy" fill="#3B3A3A" transform="translate(91.268316, 71.645508) scale(-1, 1) translate(-91.268316, -71.645508) "></path>
+                <circle id="Oval-5" fill="#757474" cx="50.5" cy="86.5" r="25.5"></circle>
+                <circle id="Oval-5-Copy" fill="#000000" cx="50.5" cy="86.5" r="23.5"></circle>
+                <circle id="Oval-5-Copy-2" fill="url(#radialGradient-6)" cx="50.5" cy="86.5" r="21.5"></circle>
+                <circle id="Oval-5-Copy-3" fill="url(#radialGradient-7)" cx="50.5" cy="86.5" r="18.5"></circle>
+                <circle id="Oval-5-Copy-4" fill="url(#radialGradient-8)" cx="50.5" cy="86.5" r="8.5"></circle>
+                <circle id="Oval-5-Copy-5" fill="url(#radialGradient-8)" cx="50.5" cy="35.5" r="8.5"></circle>
+                <rect id="Air" fill="#3D3D3D" x="24" y="123" width="53" height="8" rx="10"></rect>
+            </g>
+        </g>
+        <g id="SPEAKER-R" sketch:type="MSLayerGroup" transform="translate(786.000000, 358.000000)">
+            <mask id="mask-10" sketch:name="Mask" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <use id="Mask" fill="#1C1B1B" sketch:type="MSShapeGroup" xlink:href="#path-9"></use>
+            <g id="SPEAKER-L" mask="url(#mask-10)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-57" fill="#1C1B1B" x="0" y="0" width="100" height="144"></rect>
+                <g id="Top-side" fill="#3F3F3F">
+                    <path d="M3.01722309e-17,-5.55111512e-17 C3.01722309e-17,-5.55111512e-17 6.17021621,11.3479166 16.1421383,14.7903484 L50,14.7903484 L49.9999998,-5.55111512e-17 L3.01722309e-17,-5.55111512e-17 Z" id="Path-9"></path>
+                    <path d="M50,-5.55111512e-17 C50,-5.55111512e-17 56.1702162,11.3479166 66.1421383,14.7903484 L100,14.7903484 L99.9999998,-5.55111512e-17 L50,-5.55111512e-17 Z" id="Path-9-Copy" transform="translate(75.000000, 7.395174) scale(-1, 1) translate(-75.000000, -7.395174) "></path>
+                </g>
+                <path d="M0.156738281,0.260742188 C0.156738281,0.260742188 12.9799805,11.331543 15.7709961,15.0952148 C19.1992188,55.4101562 12.128418,128.706055 9.91455078,133.352051 C8.42505455,139.641602 0.156738281,143.551758 0.156738281,143.551758 L0.156738281,0.260742188 Z" id="Path-11" fill="#3B3A3A"></path>
+                <path d="M83,-6.9388939e-18 C83,-6.9388939e-18 95.8232422,11.0708008 98.6142578,14.8344727 C102.04248,55.1494141 94.9716797,128.445312 92.7578125,133.091309 C91.2683163,139.380859 83,143.291016 83,143.291016 L83,-6.9388939e-18 Z" id="Path-11-Copy" fill="#3B3A3A" transform="translate(91.268316, 71.645508) scale(-1, 1) translate(-91.268316, -71.645508) "></path>
+                <circle id="Oval-5" fill="#757474" cx="50.5" cy="86.5" r="25.5"></circle>
+                <circle id="Oval-5-Copy" fill="#000000" cx="50.5" cy="86.5" r="23.5"></circle>
+                <circle id="Oval-5-Copy-2" fill="url(#radialGradient-6)" cx="50.5" cy="86.5" r="21.5"></circle>
+                <circle id="Oval-5-Copy-3" fill="url(#radialGradient-7)" cx="50.5" cy="86.5" r="18.5"></circle>
+                <circle id="Oval-5-Copy-4" fill="url(#radialGradient-8)" cx="50.5" cy="86.5" r="8.5"></circle>
+                <circle id="Oval-5-Copy-5" fill="url(#radialGradient-8)" cx="50.5" cy="35.5" r="8.5"></circle>
+                <rect id="Air" fill="#3D3D3D" x="24" y="123" width="53" height="8" rx="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
