@@ -7,3 +7,6 @@ googleAnalytics = "UA-49379927-1"
 
 [taxonomies]
 tag = "tags"
+
+[params]
+description = "Jonny Kates is a designer and frontend web developer based in St. Albans, UK."
