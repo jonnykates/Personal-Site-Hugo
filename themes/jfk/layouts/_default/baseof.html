@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ if .Title }}{{ .Site.Title }} | {{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Params.shortsummary }}{{ .Params.shortsummary }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
