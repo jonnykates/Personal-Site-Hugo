@@ -1,5 +1,5 @@
 +++
 slug = ""
-tags = ["x", "y"]
+tags = []
 shortsummary = ""
 +++
