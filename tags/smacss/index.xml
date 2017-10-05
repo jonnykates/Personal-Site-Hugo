@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smacss on Jonny Kates</title>
+    <link>http://jonnykates.com/tags/smacss/index.xml</link>
+    <description>Recent content in Smacss on Jonny Kates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://jonnykates.com/tags/smacss/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting started with SMACSS</title>
+      <link>http://jonnykates.com/blog/getting-started-with-SMACSS/</link>
+      <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://jonnykates.com/blog/getting-started-with-SMACSS/</guid>
+      <description>
+
+&lt;p&gt;One of the key areas of my workflow that I have been focusing on improving in the past year or so is the organisation of my SCSS files. Frustrated with lengthy stylesheets and confusing - often repetitive - code, I decided to buy Jonathan Snook&amp;rsquo;s book &amp;lsquo;&lt;a href=&#34;http://shop.smacss.com/&#34;&gt;Scalable and Modular Architecture for CSS&lt;/a&gt;&amp;rsquo;; or &amp;lsquo;SMACSS&amp;rsquo; for short.&lt;/p&gt;
+
+&lt;h2 id=&#34;introducing-smacss&#34;&gt;Introducing SMACSS&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://smacss.com/&#34;&gt;SMACSS&lt;/a&gt; (pronounced &amp;ldquo;smacks&amp;rdquo;) can&amp;rsquo;t really be described as a framework; there&amp;rsquo;s no library to download and its recommendations are intended as guidelines rather than rules. SMACSS is simply an approach to organising your stylesheets within a project. It tries to make managing large projects easy and logical for front end developers. SMACSS leverages SCSS&amp;rsquo;s ability to easily compile numerous partial files into a single CSS file for use in production. Snook suggests that developers shouldn&amp;rsquo;t be shy about splitting their styles into any number of &lt;code&gt;_partial.scss&lt;/code&gt; files in favour of keeping your code highly organised and modular in structure.&lt;/p&gt;
+
+&lt;p&gt;Bolting on every new style onto the bottom of a single file makes finding things difficult - even with Sublime Text&amp;rsquo;s &amp;lsquo;Search in project&amp;rsquo; functionality. It leads to confusion and more often than not duplication when working in collaborative teams.&lt;/p&gt;
+
+&lt;p&gt;Essentially, SMACSS is simply a way of categorising your SCSS files to avoid these pitfalls. By defining certain rules for how styles are applied in a project, everyone in your team knows the rules from the very beginning of a project. Of course, your team might already have existing rules and patterns in place; but if you don&amp;rsquo;t then SMACSS is a wonderful starting point.&lt;/p&gt;
+
+&lt;h2 id=&#34;categorisation&#34;&gt;Categorisation&lt;/h2&gt;
+
+&lt;p&gt;There are five file categories in the SMACSS approach. Here I am going to go through each category and explain what sorts of styles should be included in each.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-base&#34;&gt;1. Base&lt;/h3&gt;
+
+&lt;p&gt;Base styles set defaults. To quote Snook directly:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;[e]ssentially, a base style says that wherever this element is on the page, it should look like &lt;em&gt;this&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In my Base folder, I tend to have a reset file, a file dedicated to typography, a file dedicated to default form styles as well as a file to store my SCSS variables. I will then also have a rather generic catch-all base file simply called &lt;code&gt;_base.scss&lt;/code&gt; that has other default styles that don&amp;rsquo;t deserve a dedicated modular sheet. For example, the &lt;code&gt;_base.scss&lt;/code&gt; partial for a project I&amp;rsquo;m currently working on has styles such as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;img {
+  max-width: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-layout&#34;&gt;2. Layout&lt;/h3&gt;
+
+&lt;p&gt;The layout folder contains all styles that control the various grids, containers and wrappers on any page. I&amp;rsquo;m currently using &lt;a href=&#34;http://bourbon.io/&#34;&gt;Bourbon&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;http://neat.bourbon.io/&#34;&gt;Neat&lt;/a&gt; grid framework in my projects, so I tend to install these libraries in the layout folder and then define some classes that I can extend when it comes to building the specific modules in my project. For example, I tend to always define the following classes that use Neat&amp;rsquo;s &lt;code&gt;span-columns&lt;/code&gt; mixin:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;.one-col { @include span-columns(1); }
+.two-cols { @include span-columns(2); }
+.three-cols { @include span-columns(3); }
+.four-cols { @include span-columns(4); }
+// etc.
+.full-width { @include fill-parent };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;3-modules&#34;&gt;3. Modules&lt;/h3&gt;
+
+&lt;p&gt;This is where the guts of your styles are built. SMACSS encourages a modular approach to front end development; a theme that is growing in popularity (see &lt;a href=&#34;http://alistapart.com/article/language-of-modular-design&#34;&gt;this article&lt;/a&gt; from Alla Kholmatova). I create new partials in this folder for every different modular item that will be in use anywhere on the site. This could range from things as broad as &lt;code&gt;_header.scss&lt;/code&gt; through to a very specific block.&lt;/p&gt;
+
+&lt;p&gt;The modules folder is probably going to contain the most number of files in your SMACSS directory. When I first started using this approach, I was always very anxious about having too many modules files. However, it&amp;rsquo;s important to realise that every module needs to have its own partial: those are the rules and you should stick to them. Because one file relates to one module, then you are able to name these partials highly specifically. For example, if I have a module with the class &lt;code&gt;.callout&lt;/code&gt;, then I can create a partial called &lt;code&gt;_callout.scss&lt;/code&gt; and immediately know that this is where the styles for this class live.&lt;/p&gt;
+
+&lt;p&gt;Jonathan Snook goes into some more detail on naming rules at the bottom of &lt;a href=&#34;https://smacss.com/book/categorizing&#34;&gt;this page&lt;/a&gt; on the SMACSS website.&lt;/p&gt;
+
+&lt;h3 id=&#34;4-state&#34;&gt;4. State&lt;/h3&gt;
+
+&lt;p&gt;State rules contain styles that are specific to a particular &lt;em&gt;state&lt;/em&gt; of a module. For example, you could have a &lt;code&gt;.inactive&lt;/code&gt; state, and then define within the &lt;code&gt;_inactive.scss&lt;/code&gt; partial how your various modules should differ if this class is also applied to the element.&lt;/p&gt;
+
+&lt;p&gt;Personally, I prefer to keep my states within a module&amp;rsquo;s partial, rather than split these out into a separate folder and files - however I can easily see how this would become unmanageable with certain types of projects that have a high level of user interaction with the interface.&lt;/p&gt;
+
+&lt;h3 id=&#34;5-theme&#34;&gt;5. Theme&lt;/h3&gt;
+
+&lt;p&gt;Finally, the theme folder is similar to the state folder and would contain various different theme styles that could be used. Again, personally I&amp;rsquo;ve never found a need for using themes, but I could see how you might want to create a few more SCSS variables files here to define different themes for your UI (for example, light or dark, high contrast etc.).&lt;/p&gt;
+
+&lt;h2 id=&#34;scratching-the-surface&#34;&gt;Scratching the surface&lt;/h2&gt;
+
+&lt;p&gt;This introduction is just scratching the surface of the SMACSS approach and I would highly, &lt;em&gt;highly&lt;/em&gt; recommend you &lt;a href=&#34;http://shop.smacss.com/&#34;&gt;read the book&lt;/a&gt; and encourage your team to also read the book if you&amp;rsquo;re likely to employ this approach in your workflow. Snook goes into far more detail about the organisation structure that SMACSS suggests, but also talks far more generally about the benefits of modular design as well as the importance of file organisation and the benefits that a high level of organisation can bring to a project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

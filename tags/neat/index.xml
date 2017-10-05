@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neat on Jonny Kates</title>
+    <link>http://jonnykates.com/tags/neat/index.xml</link>
+    <description>Recent content in Neat on Jonny Kates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://jonnykates.com/tags/neat/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Responsive Column Ordering with Neat</title>
+      <link>http://jonnykates.com/blog/responsive-column-ordering-with-neat/</link>
+      <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jonnykates.com/blog/responsive-column-ordering-with-neat/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://neat.bourbon.io/&#34;&gt;Neat&lt;/a&gt; by Bourbon is a nice little grid framework that bolts on to the wider Bourbon library. Neat allows you to structure your project&amp;rsquo;s layout around a fluid column based grid and then use clear semantic grid definitions in your Sass. Once you&amp;rsquo;ve defined some global variables - such as your container width, number of columns, gutter width etc. - Neat gives you a range of versatile Sass mixins that dictate an element&amp;rsquo;s layout behaviour.&lt;/p&gt;
+
+&lt;p&gt;For example, if we wanted to set up a basic 12 column sidebar page layout, we might define our &lt;code&gt;aside&lt;/code&gt; element to be 3 columns wide, and our &lt;code&gt;article&lt;/code&gt; to be 9 columns wide as such:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;section {
+  @include outer-container; // set this element as the 12 column container
+
+  aside {
+    @include span-columns(3); // our sidebar
+  }
+
+  article {
+    @include span-columns(9); // the main body of the layout
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can then use these Neat mixins within media queries to dictate how our layout folds and wraps at different resolutions. For example, we might want both our &lt;code&gt;aside&lt;/code&gt; and &lt;code&gt;article&lt;/code&gt; elements to fill the complete width of their parent container at a globally defined breakpoint, &lt;code&gt;$tablet&lt;/code&gt;. We can do this using Neat&amp;rsquo;s &lt;code&gt;fill-parent&lt;/code&gt; mixin.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;@include media($tablet) {
+  aside, article {
+    @include fill-parent;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What Neat &lt;em&gt;doesn&amp;rsquo;t&lt;/em&gt; do is let you decide what &lt;em&gt;order&lt;/em&gt; your DOM elements wrap. Flexbox gives us a couple of ways to achieve this, not least:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;.container {
+  flex-wrap: wrap-reverse;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;hellip; But Neat will always wrap from left-to-right; meaning that in our two column article/aside example, the aside will always have to wrap underneath the article.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jonnykates.com/img/neat-columns.png&#34; alt=&#34;Bourbon Neat Column Ordering&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I stumbled across this issue recently in a project I was working on, and soon found Github user toobulkeh&amp;rsquo;s &lt;a href=&#34;https://github.com/thoughtbot/neat/issues/304&#34;&gt;issue post&lt;/a&gt; on the Neat repository.&lt;/p&gt;
+
+&lt;p&gt;It seems that this is a limitation of Neat, but there is a bit of a hacky solution that we can implement to re-order our elements in the order we want. The trick is to order the elements in your HTML in the order you would like them to appear &lt;em&gt;after&lt;/em&gt; the breakpoint.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;aside four-cols&amp;quot;&amp;gt;
+    I want this div to be on the right normally, but then sit on top when the columns go full width after breakpoint
+  &amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;article eight-cols&amp;quot;&amp;gt;
+    This div is the main column and needs to sit on the left normally, but fold underneath after break
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, I use &lt;code&gt;float&lt;/code&gt; to force the order I want the elements to appear in &lt;em&gt;before&lt;/em&gt; the breakpoint. You have to include Neat&amp;rsquo;s &lt;a href=&#34;http://thoughtbot.github.io/neat-docs/latest/#omega&#34;&gt;&lt;code&gt;omega&lt;/code&gt; mixin&lt;/a&gt; here to sort out the gutters as you&amp;rsquo;re using floats to botch up the column ordering that Neat expects.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;.aside {
+  @include span-columns(4);
+  float: right;
+  @include omega;
+}
+.article {
+  @include span-columns(8);
+  float: left;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then my media query will make both &lt;code&gt;.aside&lt;/code&gt; and &lt;code&gt;.article&lt;/code&gt; fill the &lt;code&gt;.container&lt;/code&gt; at my breakpoint. When this happens, the floats are basically irrelevant because they are now both set to &lt;code&gt;width: 100%&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scss&#34;&gt;.container div {
+  @include media(max-width 400px) {
+    @include fill-parent();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is very much a hack. We&amp;rsquo;re using CSS floats to override the expected behaviour of Neat&amp;rsquo;s column ordering. Needless to say that float shouldn&amp;rsquo;t really be used, ever. But in this scenario it does exactly what we need. If you need any help with this issue, give me a shout on &lt;a href=&#34;http://www.twitter.com/jonnykates&#34;&gt;Twitter&lt;/a&gt; or leave a comment in that &lt;a href=&#34;https://github.com/thoughtbot/neat/issues/304&#34;&gt;Git issue&lt;/a&gt; and I&amp;rsquo;ll try and chime in.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

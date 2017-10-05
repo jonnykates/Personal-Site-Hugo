@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Jonny Kates</title>
+    <link>http://jonnykates.com/tags/design/index.xml</link>
+    <description>Recent content in Design on Jonny Kates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://jonnykates.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dropbox&#39;s 2017 rebrand</title>
+      <link>http://jonnykates.com/blog/2017-10-05-dropbox-redesign/</link>
+      <pubDate>Thu, 05 Oct 2017 08:36:52 +0100</pubDate>
+      
+      <guid>http://jonnykates.com/blog/2017-10-05-dropbox-redesign/</guid>
+      <description>&lt;p&gt;Yesterday, Dropbox shared their &lt;a href=&#34;http://dropbox.design&#34;&gt;new branding&lt;/a&gt; with the world; including a new logo, colour palette, illustration style, typography - essentially a complete overhaul of the Dropbox brand. The new identity takes the organisation in a wildly new direction and has caused &lt;a href=&#34;https://dribbble.com/shots/3849043-Dropbox-Rebrand&#34;&gt;quite a stir amongst the design community&lt;/a&gt;. You can take a look &lt;a href=&#34;http://dropbox.design&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dropbox have established themselves as a household name over more than a decade as one of the leading cloud file storage services. My mum uses Dropbox. So we have to ask &lt;em&gt;why&lt;/em&gt; Dropbox felt the need to rebrand themselves in such an extreme manner at this stage in their development, with such an established and diverse user base.&lt;/p&gt;
+
+&lt;p&gt;To me, the rebrand suggests that Dropbox wants to move away from being perceived as a business focused utility. But can a leopard change its spots? Shifting the identity in such an extreme matter isn&amp;rsquo;t going to change how users actually use the app. At it&amp;rsquo;s core, Dropbox &lt;em&gt;is&lt;/em&gt; a utility designed to do one fairly boring thing. The new brand doesn&amp;rsquo;t really sit well with the service&amp;rsquo;s purpose or user base.&lt;/p&gt;
+
+&lt;p&gt;Also what struck me yesterday whilst I was browsing through Dropbox&amp;rsquo;s big design reveal was how little I had previously touched any of Dropbox&amp;rsquo;s corporate identity in comparison to the amount that I actually use the service. I tend to just sync my Dropbox folders to my computers using the native file system, which obviously uses the core UI of the operating system. Very occasionally I find myself having to fetch a file from the cloud using the web app - usually from a folder that I don&amp;rsquo;t have selectively synced - which got me wondering how Dropbox are going to roll out this new identity into their web app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jonnykates.com/img/dropbox-web-app.png&#34; alt=&#34;My new Dropbox web app mockup&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jonnykates.com/img/dropbox-web-app.png&#34; target=&#34;_blank&#34;&gt;Open full size image in a new tab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This mockup may be a little crude, but if Dropbox push their new hugely experimental identity into what essentially is a file system then this is perhaps the sort of thing that my mum will be faced with when she next opens up Dropbox in her browser. Is that &lt;em&gt;really&lt;/em&gt; necessary? Also, think again about the juxtaposition between the web app and the native Windows and Mac syncing app. Dropbox are departing from a clean, easy to use UI that matches somewhat the look and feel of an operating system&amp;rsquo;s file browser into an unexplored experimental UI that may make some users think there&amp;rsquo;s something wrong with their computer.&lt;/p&gt;
+
+&lt;p&gt;I love the new logo glyph and I admire Dropbox&amp;rsquo;s bravery in this new approach but I can&amp;rsquo;t help think that it&amp;rsquo;s experimental for the sake of it and doesn&amp;rsquo;t reflect what Dropbox is as a service. Also, the colour scheme is too brutalistic to my eye for the sake of pushing boundaries and the typeface Sharp Grotesk is disgusting. It also comes with 259 fonts - so good luck establishing consistency across a huge organisation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
